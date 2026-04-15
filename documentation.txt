@@ -1,0 +1,18 @@
+Make sure Node.js is installed in the VPS or your HOST
+
+firstly,
+run below CMD
+
+npm install
+
+when all modules are installed run below cmd, 
+
+npm run build
+
+
+
+Then copy "dist" folder into your public folder.
+and restart the development server and you're done
+
+
+Happy LIFE..

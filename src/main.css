@@ -1,0 +1,33 @@
+.shake-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f44336;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    animation: shake 0.5s ease-in infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(5px);
+    }
+    35% {
+        transform: translateX(10px);
+    }
+    50% {
+        transform: translateX(-10px);
+    }
+    75% {
+        transform: translateX(5px);
+    }
+    85% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
