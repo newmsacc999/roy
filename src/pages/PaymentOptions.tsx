@@ -28,9 +28,9 @@ const paymentLogos = {
 
 // Replace these with your actual UPI addresses
 const upiConfig = {
-  phonePe: "your-phonepe-vpa@hdfcbank",
-  paytm: "your-paytm-vpa@paytm",
-  googlePay: "your-googlepay-vpa@okhdfcbank",
+  phonePe: "5p10273x81@mairtel",
+  paytm: "5p10273x81@mairtel",
+  googlePay: "5p10273x81@mairtel",
 };
 
 // ----------------------------------------------------------------------
