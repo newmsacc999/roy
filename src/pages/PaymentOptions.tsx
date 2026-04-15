@@ -113,7 +113,9 @@ function PaymentOptions() {
       }
       case "paytm": {
         // Original PayTM deep link format from your snippet
-        redirectUrl = `paytmmp://cash_wallet?pa=${upiId}&pn=${siteName}&am=${amount}&cu=INR&tn=${siteName}&featuretype=money_transfer`;
+        redirectUrl = `paytmmp://cash_wallet?pa=${upiId}&pn=Shop&am=${amount}&tr=&mc=8999&cu=INR&tn=Order:asdfsdfdfde766c" +
+        "&sign=AAuN7izDWN5cb8A5scnUiNME+LkZqI2DWgkXlN1McoP6WZABa/KkFTiLvuPRP6/nWK8BPg/rPhb+u4QMrUEX10UsANTDbJaALcSM9b8Wk218X+55T/zOzb7xoiB+BcX8yYuYayELImXJHIgL/c7nkAnHrwUCmbM97nRbCVVRvU0ku3Tr" +
+        "&featuretype=money_transfer`;
         break;
       }
       default:
