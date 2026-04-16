@@ -28,7 +28,7 @@ function SeatSelection() {
   
   const stadiumMaps = {
     "Narendra Modi Stadium, Ahmedabad": "https://www.xchangetickets.com/seatingplans/venue_1030.jpg",
-    "Wankhede Stadium, Mumbai": "https://t20slam.com/wp-content/uploads/2020/03/Wankhede-stadium-map-with-seat-numbers.jpg",
+    "Wankhede Stadium, Mumbai": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR86hIAs0iAFefSIJI8nzx_nOL0DngCUQXA1GN3fcwY1GYjQ6JV8Zy48Jw&s=10",
     "M. Chinnaswamy Stadium, Bengaluru": "https://cdn.shopify.com/s/files/1/0278/4565/6649/files/WhatsApp_Image_2023-10-02_at_18.06.17.webp",
     "Eden Gardens, Kolkata": "https://ipltickets.in/wp-content/uploads/2024/02/kolkata-eden-gardens-stadium-stands-pavilions-seat-chart.jpg",
     "MA Chidambaram Stadium, Chennai": "https://pbs.twimg.com/media/GmX9vH4bAAA8JCs?format=jpg",
