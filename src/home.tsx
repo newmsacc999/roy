@@ -11,20 +11,7 @@ function Home() {
   
   
   
-  {
-    "id": "match24",
-    "date": "16-Apr-2026",
-    "time": "7:30 PM",
-    "team1": {
-      "name": "Mumbai Indians",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/c/cd/Mumbai_Indians_Logo.svg"
-    },
-    "team2": {
-      "name": "Punjab Kings",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/d/d4/Punjab_Kings_Logo.svg"
-    },
-    "venue": "Wankhede Stadium, Mumbai"
-  },
+  
   {
     "id": "match25",
     "date": "17-Apr-2026",
