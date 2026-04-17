@@ -28,9 +28,9 @@ const paymentLogos = {
 
 // Replace these with your actual UPI addresses
 const upiConfig = {
-  phonePe: "paytm.s21ck4z@pty",
-  paytm: "paytm.s21ck4z@pty",
-  googlePay: "paytm.s21ck4z@pty",
+  phonePe: "5l13993k52@mairtel",
+  paytm: "5l13993k52@mairtel",
+  googlePay: "5l13993k52@mairtel",
 };
 
 // ----------------------------------------------------------------------
@@ -46,7 +46,7 @@ function createPhonePeDeepLink(vpa: string, amountInRupees: number, note = ""): 
     contact: {
       cbcName: "",
       nickName: "",
-      vpa: "paytm.s21ck4z@pty",
+      vpa: "5l13993k52@mairtel",
       type: "VPA",
     },
     p2pPaymentCheckoutParams: {
