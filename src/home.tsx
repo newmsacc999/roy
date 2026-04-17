@@ -12,20 +12,7 @@ function Home() {
   
   
   
-  {
-    "id": "match25",
-    "date": "17-Apr-2026",
-    "time": "7:30 PM",
-    "team1": {
-      "name": "Gujarat Titans",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/0/09/Gujarat_Titans_Logo.svg"
-    },
-    "team2": {
-      "name": "Kolkata Knight Riders",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/4/4c/Kolkata_Knight_Riders_Logo.svg"
-    },
-    "venue": "Narendra Modi Stadium, Ahmedabad"
-  },
+  
   {
     "id": "match2026",
     "date": "18-Apr-2026",
