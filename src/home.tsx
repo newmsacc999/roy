@@ -13,20 +13,7 @@ function Home() {
   
   
   
-  {
-    "id": "match2026",
-    "date": "18-Apr-2026",
-    "time": "3:30 PM",
-    "team1": {
-      "name": "Royal Challengers Bengaluru",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/d/d4/Royal_Challengers_Bengaluru_Logo.svg"
-    },
-    "team2": {
-      "name": "Delhi Capitals",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/2/2f/Delhi_Capitals.svg"
-    },
-    "venue": "M. Chinnaswamy Stadium, Bengaluru"
-  },
+  
   {
     "id": "match27",
     "date": "18-Apr-2026",
