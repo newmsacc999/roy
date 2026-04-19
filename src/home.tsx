@@ -18,7 +18,7 @@ function Home() {
     },
     "team2": {
       "name": "Lucknow Super Giants",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Lucknow_Super_Giants_Logo.svg/5000px-Lucknow_Super_Giants_Logo.svg.png"
+      "logo": "https://scores.iplt20.com/ipl/teamlogos/b7GnGJW4bi1772703245LSG.png"
     },
     "venue": "New International Cricket Stadium, New Chandigarh"
   },
@@ -56,7 +56,7 @@ function Home() {
     "time": "7:30 PM",
     "team1": {
       "name": "Lucknow Super Giants",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Lucknow_Super_Giants_Logo.svg/5000px-Lucknow_Super_Giants_Logo.svg.png"
+      "logo": "https://scores.iplt20.com/ipl/teamlogos/b7GnGJW4bi1772703245LSG.png"
     },
     "team2": {
       "name": "Rajasthan Royals",
@@ -140,7 +140,7 @@ function Home() {
     "time": "7:30 PM",
     "team1": {
       "name": "Lucknow Super Giants",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Lucknow_Super_Giants_Logo.svg/5000px-Lucknow_Super_Giants_Logo.svg.png"
+      "logo": "https://scores.iplt20.com/ipl/teamlogos/b7GnGJW4bi1772703245LSG.png"
     },
     "team2": {
       "name": "Kolkata Knight Riders",
@@ -270,7 +270,7 @@ function Home() {
     },
     "team2": {
       "name": "Lucknow Super Giants",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Lucknow_Super_Giants_Logo.svg/5000px-Lucknow_Super_Giants_Logo.svg.png"
+      "logo": "https://scores.iplt20.com/ipl/teamlogos/b7GnGJW4bi1772703245LSG.png"
     },
     "venue": "Wankhede Stadium, Mumbai"
   },
@@ -308,7 +308,7 @@ function Home() {
     "time": "7:30 PM",
     "team1": {
       "name": "Lucknow Super Giants",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Lucknow_Super_Giants_Logo.svg/5000px-Lucknow_Super_Giants_Logo.svg.png"
+      "logo": "https://scores.iplt20.com/ipl/teamlogos/b7GnGJW4bi1772703245LSG.png"
     },
     "team2": {
       "name": "Royal Challengers Bengaluru",
@@ -354,7 +354,7 @@ function Home() {
     },
     "team2": {
       "name": "Lucknow Super Giants",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Lucknow_Super_Giants_Logo.svg/5000px-Lucknow_Super_Giants_Logo.svg.png"
+      "logo": "https://scores.iplt20.com/ipl/teamlogos/b7GnGJW4bi1772703245LSG.png"
     },
     "venue": "MA Chidambaram Stadium, Chennai"
   },
@@ -434,7 +434,7 @@ function Home() {
     "time": "7:30 PM",
     "team1": {
       "name": "Lucknow Super Giants",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Lucknow_Super_Giants_Logo.svg/5000px-Lucknow_Super_Giants_Logo.svg.png"
+      "logo": "https://scores.iplt20.com/ipl/teamlogos/b7GnGJW4bi1772703245LSG.png"
     },
     "team2": {
       "name": "Chennai Super Kings",
@@ -508,7 +508,7 @@ function Home() {
     },
     "team2": {
       "name": "Lucknow Super Giants",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Lucknow_Super_Giants_Logo.svg/5000px-Lucknow_Super_Giants_Logo.svg.png"
+      "logo": "https://scores.iplt20.com/ipl/teamlogos/b7GnGJW4bi1772703245LSG.png"
     },
     "venue": "Sawai Mansingh Stadium, Jaipur"
   },
@@ -560,7 +560,7 @@ function Home() {
     "time": "7:30 PM",
     "team1": {
       "name": "Lucknow Super Giants",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Lucknow_Super_Giants_Logo.svg/5000px-Lucknow_Super_Giants_Logo.svg.png"
+      "logo": "https://scores.iplt20.com/ipl/teamlogos/b7GnGJW4bi1772703245LSG.png"
     },
     "team2": {
       "name": "Punjab Kings",
