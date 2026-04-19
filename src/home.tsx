@@ -8,20 +8,7 @@ function Home() {
 
   const matches = [
   
-  {
-    "id": "match29",
-    "date": "19-Apr-2026",
-    "time": "7:30 PM",
-    "team1": {
-      "name": "Punjab Kings",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/d/d4/Punjab_Kings_Logo.svg"
-    },
-    "team2": {
-      "name": "Lucknow Super Giants",
-      "logo": "https://scores.iplt20.com/ipl/teamlogos/b7GnGJW4bi1772703245LSG.png"
-    },
-    "venue": "New International Cricket Stadium, New Chandigarh"
-  },
+  
   {
     "id": "match30",
     "date": "20-Apr-2026",
