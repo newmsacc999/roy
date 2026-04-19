@@ -8,27 +8,6 @@ function Home() {
 
   const matches = [
   
-  
-  
-  
-  
-  
-  
-  
-  {
-    "id": "match28",
-    "date": "19-Apr-2026",
-    "time": "3:30 PM",
-    "team1": {
-      "name": "Kolkata Knight Riders",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/4/4c/Kolkata_Knight_Riders_Logo.svg"
-    },
-    "team2": {
-      "name": "Rajasthan Royals",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/5/5c/This_is_the_logo_for_Rajasthan_Royals%2C_a_cricket_team_playing_in_the_Indian_Premier_League_%28IPL%29.svg"
-    },
-    "venue": "Eden Gardens, Kolkata"
-  },
   {
     "id": "match29",
     "date": "19-Apr-2026",
