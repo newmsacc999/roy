@@ -9,20 +9,7 @@ function Home() {
   const matches = [
   
   
-  {
-    "id": "match30",
-    "date": "20-Apr-2026",
-    "time": "7:30 PM",
-    "team1": {
-      "name": "Gujarat Titans",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/0/09/Gujarat_Titans_Logo.svg"
-    },
-    "team2": {
-      "name": "Mumbai Indians",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/c/cd/Mumbai_Indians_Logo.svg"
-    },
-    "venue": "Narendra Modi Stadium, Ahmedabad"
-  },
+  
   {
     "id": "match31",
     "date": "21-Apr-2026",
