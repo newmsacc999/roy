@@ -10,20 +10,7 @@ function Home() {
   
   
   
-  {
-    "id": "match31",
-    "date": "21-Apr-2026",
-    "time": "7:30 PM",
-    "team1": {
-      "name": "Sunrisers Hyderabad",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/5/51/Sunrisers_Hyderabad_Logo.svg"
-    },
-    "team2": {
-      "name": "Delhi Capitals",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/2/2f/Delhi_Capitals.svg"
-    },
-    "venue": "Rajiv Gandhi International Stadium, Hyderabad"
-  },
+  
   {
     "id": "match32",
     "date": "22-Apr-2026",
