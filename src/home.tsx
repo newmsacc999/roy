@@ -8,24 +8,6 @@ function Home() {
 
   const matches = [
   
-  
-  
-  
-  
-  {
-    "id": "match33",
-    "date": "23-Apr-2026",
-    "time": "7:30 PM",
-    "team1": {
-      "name": "Mumbai Indians",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/c/cd/Mumbai_Indians_Logo.svg"
-    },
-    "team2": {
-      "name": "Chennai Super Kings",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/2/2b/Chennai_Super_Kings_Logo.svg"
-    },
-    "venue": "Wankhede Stadium, Mumbai"
-  },
   {
     "id": "match34",
     "date": "24-Apr-2026",
