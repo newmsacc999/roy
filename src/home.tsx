@@ -8,20 +8,7 @@ function Home() {
 
   const matches = [
   
-  {
-    "id": "match34",
-    "date": "24-Apr-2026",
-    "time": "7:30 PM",
-    "team1": {
-      "name": "Royal Challengers Bengaluru",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/d/d4/Royal_Challengers_Bengaluru_Logo.svg"
-    },
-    "team2": {
-      "name": "Gujarat Titans",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/0/09/Gujarat_Titans_Logo.svg"
-    },
-    "venue": "M. Chinnaswamy Stadium, Bengaluru"
-  },
+  
   {
     "id": "match35",
     "date": "25-Apr-2026",
