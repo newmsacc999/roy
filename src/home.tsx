@@ -36,7 +36,7 @@ function Home() {
       "name": "Chennai Super Kings",
       "logo": "https://upload.wikimedia.org/wikipedia/en/2/2b/Chennai_Super_Kings_Logo.svg"
     },
-    "venue": "Narendra Modi Stadium, Ahmedabad"
+    "venue": "MA Chidambaram Stadium, Chennai"
   },
   {
     "id": "match38",
