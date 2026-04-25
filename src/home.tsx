@@ -10,20 +10,7 @@ function Home() {
   
   
   
-  {
-    "id": "match36",
-    "date": "25-Apr-2026",
-    "time": "7:30 PM",
-    "team1": {
-      "name": "Rajasthan Royals",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/5/5c/This_is_the_logo_for_Rajasthan_Royals%2C_a_cricket_team_playing_in_the_Indian_Premier_League_%28IPL%29.svg"
-    },
-    "team2": {
-      "name": "Sunrisers Hyderabad",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/5/51/Sunrisers_Hyderabad_Logo.svg"
-    },
-    "venue": "Sawai Mansingh Stadium, Jaipur"
-  },
+  
   {
     "id": "match37",
     "date": "26-Apr-2026",
