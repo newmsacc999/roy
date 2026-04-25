@@ -9,20 +9,7 @@ function Home() {
   const matches = [
   
   
-  {
-    "id": "match35",
-    "date": "25-Apr-2026",
-    "time": "3:30 PM",
-    "team1": {
-      "name": "Delhi Capitals",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/2/2f/Delhi_Capitals.svg"
-    },
-    "team2": {
-      "name": "Punjab Kings",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/d/d4/Punjab_Kings_Logo.svg"
-    },
-    "venue": "Arun Jaitley Stadium, Delhi"
-  },
+  
   {
     "id": "match36",
     "date": "25-Apr-2026",
@@ -39,7 +26,7 @@ function Home() {
   },
   {
     "id": "match37",
-    "date": "2026-Apr-2026",
+    "date": "26-Apr-2026",
     "time": "3:30 PM",
     "team1": {
       "name": "Gujarat Titans",
@@ -53,7 +40,7 @@ function Home() {
   },
   {
     "id": "match38",
-    "date": "2026-Apr-2026",
+    "date": "26-Apr-2026",
     "time": "7:30 PM",
     "team1": {
       "name": "Lucknow Super Giants",
