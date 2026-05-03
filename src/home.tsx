@@ -9,38 +9,6 @@ function Home() {
   const matches = [
   
   
-  
-  
-  
-  
-  {
-    "id": "match45",
-    "date": "03-MAY-2026",
-    "time": "3:30 PM",
-    "team1": {
-      "name": "Sunrisers Hyderabad",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/5/51/Sunrisers_Hyderabad_Logo.svg"
-    },
-    "team2": {
-      "name": "Kolkata Knight Riders",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/4/4c/Kolkata_Knight_Riders_Logo.svg"
-    },
-    "venue": "Rajiv Gandhi International Stadium, Hyderabad"
-  },
-  {
-    "id": "match46",
-    "date": "03-MAY-2026",
-    "time": "7:30 PM",
-    "team1": {
-      "name": "Gujarat Titans",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/0/09/Gujarat_Titans_Logo.svg"
-    },
-    "team2": {
-      "name": "Punjab Kings",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/d/d4/Punjab_Kings_Logo.svg"
-    },
-    "venue": "Narendra Modi Stadium, Ahmedabad"
-  },
   {
     "id": "match47",
     "date": "04-MAY-2026",
