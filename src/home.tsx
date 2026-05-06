@@ -7,50 +7,6 @@ function Home() {
   // Match data array with all matches
 
   const matches = [
-  
-  
-  {
-    "id": "match47",
-    "date": "04-MAY-2026",
-    "time": "7:30 PM",
-    "team1": {
-      "name": "Mumbai Indians",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/c/cd/Mumbai_Indians_Logo.svg"
-    },
-    "team2": {
-      "name": "Lucknow Super Giants",
-      "logo": "https://scores.iplt20.com/ipl/teamlogos/b7GnGJW4bi1772703245LSG.png"
-    },
-    "venue": "Wankhede Stadium, Mumbai"
-  },
-  {
-    "id": "match48",
-    "date": "05-MAY-2026",
-    "time": "7:30 PM",
-    "team1": {
-      "name": "Delhi Capitals",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/2/2f/Delhi_Capitals.svg"
-    },
-    "team2": {
-      "name": "Chennai Super Kings",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/2/2b/Chennai_Super_Kings_Logo.svg"
-    },
-    "venue": "Arun Jaitley Stadium, Delhi"
-  },
-  {
-    "id": "match49",
-    "date": "06-MAY-2026",
-    "time": "7:30 PM",
-    "team1": {
-      "name": "Sunrisers Hyderabad",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/5/51/Sunrisers_Hyderabad_Logo.svg"
-    },
-    "team2": {
-      "name": "Punjab Kings",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/d/d4/Punjab_Kings_Logo.svg"
-    },
-    "venue": "Rajiv Gandhi International Stadium, Hyderabad"
-  },
   {
     "id": "match50",
     "date": "07-MAY-2026",
